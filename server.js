@@ -24,44 +24,44 @@ app.get("/", (req, res) => {
 //   res.sendFile(path.join(__dirname, "public/index.html"))
 // });
 //
-// app.get("/user", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-//
-// app.get("/facts", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-//
-// app.get("/about", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-// app.get("/signup", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-// app.get("/login", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-// app.get("/accepted", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-// app.get("/accepted", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-// app.get("/notifications", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-// app.get("/search", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-// app.get("/admin_search", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-// app.get("/reports", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
-// app.get("/home", (req, res) => {
-//     res.sendFile(path.join(__dirname, "public/index.html"))
-// });
+app.get("/user", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+
+app.get("/facts", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+
+app.get("/about", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+app.get("/signup", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+app.get("/login", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+app.get("/accepted", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+app.get("/accepted", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+app.get("/notifications", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+app.get("/search", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+app.get("/admin_search", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+app.get("/reports", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
+app.get("/home", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"))
+});
 
 
 app.listen(process.env.PORT || 3000, () => {
